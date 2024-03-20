@@ -1,0 +1,99 @@
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+h2 span{
+    color: #0C4CA2;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+.card {
+    background-color: #0C4CA2;
+    width: 50vh;
+    height: 50vh;
+    margin-left: 30vh;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px 0px #0C4CA2;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px); 
+}
+.moe {
+    display: inline-block;
+    background-color: #0C4CA2;
+    border-radius: 50px;
+    color: aliceblue;
+    height: 7vh;
+    width: 100px;
+    margin-left: 46vw;
+    margin-top: 8vh;
+    text-align: center;
+    border: 2px solid #0C4CA2;
+    box-shadow: 5px 5px 10px 0px #0C4CA2;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.more:hover {
+    background-color: #fff; 
+    color: #0C4CA2;
+}
+.homecard{
+    border-radius: 50px;
+    width:40vh;
+    height: 40vh;
+    
+}
+.n{
+    background-image: linear-gradient(to right,#0C4CA2, rgb(0, 0, 0));
+    width: 10vh;
+    height: .8vh;
+    margin-top: 30px;
+    }
+@media (max-width: 576px) {
+    .card {
+        width: 90vw; /* Adjust card width for better fit on smaller screens */
+        height: 40vh; /* Adjust card height for better proportion on smaller screens */
+        margin-left: 0vw;
+        margin-right: 15vw; /* Adjust margin for centering on smaller screens */
+    }
+
+    .moe{
+        margin-left: 38vw;
+    }
+
+    .homecard {
+        margin-left: 10%;
+        width: 80%; /* Adjust image width for better fit on smaller screens */
+    }
+
+    .new2 {
+        width: 90vw; /* Adjust width for better fit on smaller screens */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjust font size for better readability on smaller screens */
+        margin-top: 20px; /* Adjust margin top for spacing on smaller screens */
+    }
+
+    .more {
+        margin-left: 5vw; /* Adjust margin left for centering on smaller screens */
+        margin-top: 4vh; /* Adjust margin top for spacing on smaller screens */
+    }
+    #hid{
+        display: none;
+    }
+    #hid2{
+        display: none;
+    }
+}

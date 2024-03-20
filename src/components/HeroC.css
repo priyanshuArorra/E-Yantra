@@ -1,0 +1,28 @@
+.cimg {
+     padding-top: 50px;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    border-radius: 80px; 
+    padding-bottom: 20px ;
+}
+h3 {
+    margin: auto;
+    margin-left: 50vw;
+}
+@media (max-width: 600px) {
+    .cimg {
+        width: 90%; /* Adjust image width for better fit on smaller screens */
+        height: 30vh; /* Adjust image height for better proportion on smaller screens */
+        border-radius: 50px; /* Reduce border radius for a more subtle effect on smaller screens */
+        margin: 20px auto; /* Center image horizontally and adjust margin for spacing on smaller screens */
+    }
+
+    h3 {
+        text-align: center; /* Center align h3 text for better readability on smaller screens */
+        margin: 20px auto; /* Center h3 horizontally and adjust margin for spacing on smaller screens */
+    }
+    #hid{
+        display: none;
+    }
+}
